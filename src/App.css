@@ -1,0 +1,241 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+
+.navbar{
+  height: 70px;
+  font-size: 19px;
+  font-weight: bolder;
+  /* margin: 0 auto; */
+  /* border-radius: 7px; */
+  box-shadow: 5px 5px 5px  #833ab4;  /* Chrome 10-25, Safari 5.1-6 */
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.navbar-brand{
+  font-size: 30px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px  purple;
+}
+
+hr{
+  border-top: 1px solid #000; width:50%; color: green 
+}
+
+.b{
+  font-weight: bolder;
+  font-size: 17px;
+  height: 40px;
+  width: 120px;
+  line-height: 10px;
+  margin-right: 10px;
+}
+.row
+{
+  margin: 0 auto
+}
+
+.form-control{
+  border: 1px solid black;
+}
+.bb{
+  width: 200px;
+
+}
+
+.container{
+  margin-bottom: 40px;
+}
+#header{
+  opacity: 0.1px;;
+}
+
+/* Facts Section
+--------------------------------*/
+#fact {
+  background: url("https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center top no-repeat fixed;
+  background-size: cover;
+  padding: 40px 0 ;
+  position: relative;
+  }
+  #fact::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.78);
+  z-index: 0;
+  }
+  
+  
+  #fact .container {
+  position: relative;
+  z-index: 10;
+  }
+
+
+  /*Index Page */
+
+  #factt {
+    background: url("https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center top no-repeat fixed;
+    background-size: cover;
+    padding: 20px 0 ;
+    position: relative;
+    }
+    #factt::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.78);
+    z-index: 0;
+    }
+    
+    
+    #factt .container {
+    position: relative;
+    z-index: 10;
+    }
+
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .h{
+    font-size: 70px; letter-spacing: 10px;color: black
+  }
+  .h1{
+    letter-spacing: 3px;color: black;
+  }
+  .hi{
+    width: 40px; height: 40px; 
+    line-height: 40px;color: black
+
+
+  }
+  .hw{
+    color: whitesmoke; font-size: 26px;
+    font-weight: bolder
+  }
+  .hw:hover{
+    color: whitesmoke; font-size: 26px;
+    font-weight: bolder
+  }
+
+  #p{
+    /*background-color: #0f9d58;*/
+    letter-spacing: 2px;
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 18px;
+    color: black;
+
+}
+hr{
+  border-width: 3px;
+  border-color: black;
+}
+.index{
+  margin-top: 10px;
+}
+
+    /* End Index Page */
+
+/*Bootstrap Counter Page */
+
+.counter {
+  background-color:#f5f5f5;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.count-title {
+  font-size: 40px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.count-text {
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.fa-2x {
+  margin: 0 auto;
+  float: none;
+  display: table;
+  color: #4ad1e5;
+}
+
+/* End Bootstrap Counter Page */
+#fact1 {
+  background: url("https://physioguru.com/images/2018/01/12/Online%20education.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 20px 0 ;
+  position: relative;
+}
+#fact1::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(55, 255, 255, 0.78);
+  z-index: 0;
+}
+
+
+#fact1 .container {
+  position: relative;
+  z-index: 10;
+}
+.hww{
+  color: whitesmoke; font-size: 26px;
+  font-weight: bolder;
+  padding-bottom: -100px;
+}
+.lol{
+  margin-bottom: -30px;
+}
+
+
+#fact11 {
+  background: url("https://career.vt.edu/content/career_vt_edu/en/job-search/presenting_yourself/resumes/_jcr_content/content/vtmulticolumn_1519867830/vt-items_0/adaptiveimage.transform/m-medium/image.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 40px 0 ;
+  position: relative;
+}
+#fact11::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.78);
+  z-index: 0;
+}
+
+#fact11 .container {
+  position: relative;
+  z-index: 10;
+}
+
+.page-footer{
+  margin-top: 70px;
+  margin-bottom: -30px;
+}
