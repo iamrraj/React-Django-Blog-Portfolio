@@ -47,10 +47,10 @@ class Contact extends Component {
       //   <BaseLayout/>
       // </BrowserRouter>
       
-  <div className="container">
-  <h1 class="mt-4 mb-3">Contact
-    <small>Us</small>
-  </h1>
+<div class="container" > 
+<h1 class="mt-4 mb-3">My
+      <small>Conatct</small>
+    </h1>
   <ol class="breadcrumb">
     <li class="breadcrumb-item">
       <a href=" #">Home</a>

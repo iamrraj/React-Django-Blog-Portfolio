@@ -4,9 +4,12 @@
   "private": true,
   "dependencies": {
     "firebase": "^5.8.2",
+    "gh-pages": "^2.0.1",
+    "markdown-to-jsx": "^6.9.1",
     "react": "^16.7.0",
     "react-auth-firebase": "^1.2.1",
     "react-dom": "^16.7.0",
+    "react-markdown": "^4.0.6",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.3"
   },

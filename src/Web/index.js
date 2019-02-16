@@ -3,16 +3,16 @@ import React, { Component } from 'react';
 class Home extends Component{
   render(){
     return(
-<div class="container index">
-      <div class="container">
+<div class=" index">
+      <div class="">
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="http://placehold.it/600x300 " alt="First slide"  />
+            <img class="d-block w-100" src="http://localhost:8000/media/18670886_799028153587465_7592929722418544811_n_fCsfCCC.jpg" alt="First slide" style={{ height:'440px'}}  />
               <div class="centered">
-                 <h1 class="text-dark text-center animated fadeInRight delay-1s h " >I'M Rahul Raj</h1>
-                  <h2 class="text-dark text-center animated fadeInLeft delay-1s h1">Full Stack Web Developer</h2>
-                  <h2 class="text-dark text-center animated fadeInLeft delay-1s h1"  >Data Scientist</h2>
+                 <h1 class="text-center animated fadeInRight delay-1s h text-white " >I'M Rahul Raj</h1>
+                  <h2 class="text-center animated fadeInLeft delay-1s h1 text-white ">Full Stack Web Developer</h2>
+                  <h2 class="text-center animated fadeInLeft delay-1s h1 text-white "  >Data Scientist</h2>
                   <center>
                   <button class="btn btn-success btn-large text-center animated fadeInLeft delay-4s " id="button" > <a href=" " class="text-center hw" target="_blank" >
                     <i class="fa fa-arrow-down animated fadeInLeft delay-5s hi"></i>Hire Me</a></button></center>
@@ -23,25 +23,27 @@ class Home extends Component{
       </div>
 </div>
 
-
+<br></br><br></br>
 {/* <!--About Part--> */}
- <div class="col-sm-12 " >
 
-    <section id="factt"  class="wow fadeIn">
+
+    <section id="facttp"  class="wow fadeIn">
         <div class="container">
           <div class="clearfix">
           <div className="row">
 
           <div class="text-center animated fadeInRight delay-3s col-sm-4 ">
-              <img src=" http://placehold.it/300x300" alt="Fjords" />
+              <img src=" http://localhost:8000/media/18670886_799028153587465_7592929722418544811_n_fCsfCCC.jpg" alt="Fjords" style={{ width:'300px',height:'300px'}} />
+              {/* <img src=" http://placehold.it/300x300" alt="Fjords" /> */}
+             
             </div>
 
           <div class="col-sm-8 ">
-                <h5 class="header text-center animated fadeInUp delay-1s header" id="header" >About Me</h5>
-                <h3 class="header text-center animated fadeInUp delay-2s"  >Who Am I ?</h3><hr></hr>
+                <h5 class="header text-center animated fadeInUp delay-1s header text-white" id="header" >About Me</h5>
+                <h3 class="header text-center animated fadeInUp delay-2s text-white"  >Who Am I ?</h3><hr style={{ borderColor:'green'}}></hr>
                 
 
-                <p id="p" class="animated fadeInLeft delay-4s">Hi I'm <strong> Rahul Raj</strong>, Computer science Student with a demonstrated history of working on Computer Software.
+                <p id="p" class="animated fadeInLeft delay-4s text-white">Hi I'm <strong> Rahul Raj</strong>, Computer science Student with a demonstrated history of working on Computer Software.
                     Skilled in Web Development, Android, Java,Spring, JavaScript, MySQL,Nest Js and PHP, Python,Django and
                     passionate about to learn Data Science and Machine Learning. Strong support professional with a
                     Bachelor of Science in Computer Science from<strong> Spoleczna Akademia Nauk </strong></p>
@@ -53,7 +55,7 @@ class Home extends Component{
         </div>
         </div>
     </section>
-    </div>
+
 
     {/* <!--End About Part--> */}
 
@@ -62,9 +64,9 @@ class Home extends Component{
 
    {/* <!--End Counter  Part--> */}
 <br></br>
-<div class="col-sm-12 " >
 
-<section id="fact11"  class="wow fadeIn">
+
+<section id="fact11p"  class="wow fadeIn">
     <div class="container">
       <div class="clearfix">
       
@@ -72,8 +74,8 @@ class Home extends Component{
     <div class="row">
         <br/>
       <div class="col text-center">
-      <h5 class="header text-center animated fadeInUp delay-1s header" id="header" >Hire Me</h5>
-      <h3 class="header text-center animated fadeInUp delay-2s "  >Hire Me ?</h3><hr></hr>
+      <h5 class="header text-center animated fadeInUp delay-1s header text-white" id="header" >Hire Me</h5>
+      <h3 class="header text-center animated fadeInUp delay-2s text-white"  >Hire Me ?</h3><hr style={{ borderColor:'green'}}></hr>
     </div>
 		
              
@@ -119,20 +121,20 @@ class Home extends Component{
     </div>
     </div>
 </section>
-</div>
+
 <br></br>
 
 {/* <!--Education Part--> */}
-    <div class="col-sm-12 " >
 
-    <section id="fact1"  class="wow fadeIn">
+
+    <section id="fact1p"  class="wow fadeIn">
         
 
  
              <div class="col-sm-12 " >
-                <h5 class="header text-center" id="header"  >EDUCATION</h5>
-                <h3 class="header text-center"  >My Education Details ?</h3>
-                <hr class="text-center col-sm-4" />
+                <h5 class="header text-center text-white" id="header"  >EDUCATION</h5>
+                <h3 class="header text-center text-white"  >My Education Details ?</h3>
+                <hr class="text-center col-sm-4"  style={{ borderColor:'green'}} />
         <div class="accordion" id="accordionExample" >
 
         
@@ -239,28 +241,67 @@ class Home extends Component{
 
     </div>
     </section>
+<br/><br/>
+    <div id="hire">
+    
+    <section id="fact2p"  class="wow fadeIn">
+        <div class="container">
+            <div class="clearfix">
+
+            <h5 class="header text-center text-white" id="header"  >My Skills</h5>
+                <h3 class="header text-center text-white"  >My Skill ?</h3>
+                <hr class="text-center col-sm-4"  style={{ borderColor:'green'}} />
+
+          <div class="row" style={{ background:'transparent' }}>
+              <div class= "col-sm-12 bg-white border border-primary " style={{padding: '20px', margin: '0 aut', width: '800px', borderRadius: '8px'}}>
+                <button class="btn btn-primary ">Programming Language:</button>=
+                <button class=" btn btn-primary ">Java and (Spring, Rest, Jsp) </button>|
+                <button class=" btn btn-primary ">Python </button>|
+                <button class=" btn btn-primary ">Django</button>|
+                <button class=" btn btn-primary ">Html</button>|
+                <button class=" btn btn-primary ">Css</button>|
+                <button class=" btn btn-primary ">JavaScript</button>|
+                <button class=" btn btn-primary ">PHP</button>|
+                <button class=" btn btn-primary " >React Js</button>|
+                <button class=" btn btn-primary upp ">Nest Js</button>|
+              </div>
+          </div>
+
+          <div class="row">
+              <div class= "col-sm-12 bg-white border border-primary up" style={{padding: '20px', margin: '0 aut', width: '800px', borderRadius: '8px', marginTop: '100px;'}}>
+                <button class="btn btn-primary ">DataBase: </button>=
+                <button class=" btn btn-primary ">Mysql </button>|
+                <button class=" btn btn-primary ">PostgreSQL </button>|
+                <button class=" btn btn-primary ">Sql</button>|
+                <button class=" btn btn-primary ">Microsoft Sql</button>|
+                
+              </div>
+          </div>
+
+          <div class="row">
+              <div class= "col-sm-12 bg-white border border-primary up" style={{padding: '20px', margin: '0 aut', width: '800px', borderRadius: '8px', marginTop: '10px;'}}>
+                <button class="btn btn-primary ">DataScience:= </button>=
+                <button class=" btn btn-primary ">Sklearn</button>|
+                <button class=" btn btn-primary ">Keras </button>|
+                <button class=" btn btn-primary ">Seaborn</button>|
+                <button class=" btn btn-primary ">Pandas, Numpy</button>|
+                <button class=" btn btn-primary ">Matplotlib</button>|
+                
+              </div>
+          </div>
+
+            </div>
+        </div>
+    </section>
     </div>
+
 
 
          {/* <!--Education Part End--> */}
 
 
-  <footer class="page-footer font-small unique-color-dark bg-dark"  >
+ 
 
-
-    <div class="footer-copyright text-center py-3 bg-primary text-white animated fadeInUp delay-5s">© <span id="date"></span> Copyright:<a href="# " class='text-white'> rajrahul.pl</a>
-    </div>
-
-  </footer>
-
-  <script>
-n =  new Date();
-y = n.getFullYear();
-m = n.getMonth() + 1;
-d = n.getDate();
-document.getElementById("date").innerHTML = y;
-
-</script>
 
 </div>
 
